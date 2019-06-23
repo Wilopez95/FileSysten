@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="shortcut icon" href="rsc/favicon.ico"/>
+        <title>File System Drive</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <form class="login_conintainer" method="POST" action="ServletIndex">
+            <div class="imgcontainer">
+              <img src="rsc/img_avatar2.png" alt="Avatar" class="avatar">
+            </div>
+
+            <div class="container">
+              <label for="uname"><b>Correo</b></label>
+              <input type="text" placeholder="Ingrese correo" name="uname" required>
+
+              <label for="psw"><b>Contraseña</b></label>
+              <input type="password" placeholder="Ingrese contraseña" name="psw" required>
+              
+              
+              
+              <div><input name="path" value="k@gmail.com" type="hidden"></div>
+              
+              <button type="submit" name="btnLogin" id="btn1">Entrar</button>
+              <label>
+                <input type="checkbox" checked="checked" name="remember"> Recuerdame
+              </label>
+              <br/>
+              <label>
+                <a href="SignUp.html">Registrarse</a>
+              </label>
+              
+            </div>
+          </form>
+    </body>
+</html>

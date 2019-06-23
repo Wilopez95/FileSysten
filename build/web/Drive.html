@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    
+    <style>
+        html {
+        overflow: scroll;
+        overflow-x: hidden;
+        }
+        ::-webkit-scrollbar {
+        width: 0px; /* remove scrollbar space /
+        background: transparent; / optional: just make scrollbar invisible /
+        }       
+    </style>
+    
+    <head>
+        <link rel="shortcut icon" href="rsc/favicon.ico"/>
+        <title>Drive</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="barra.css"> 
+        <link rel="stylesheet" type="text/css" href="treeview.css"> 
+        <link rel="stylesheet" type="text/css" href="Files.css"> 
+    </head>
+   
+        
+    <body class="ulb">
+        
+        <form method="GET" action="ServletIndex">
+        
+        <div class="imgcontainer">
+            <img src="rsc/img_avatar2.png" width="5%" alt="Avatar" class="avatar">
+        </div>
+        
+        <ul class="ulb">
+            <li class="lib"><a class="ab" href="ServletIndex?path=root">
+                <img  align="middle" src="rsc/img_avatar2.png"
+                width="15%" height="auto"
+                alt="Avatar" class="avatar"/><b>Drive</b></a>
+            </li>
+            <li class="lib"><a class="ab" href="ServletIndex?path=shared">
+                <img  align="middle" src="rsc/img_avatar2.png"
+                width="15%" height="auto"
+                alt="Avatar" class="avatar"/><b>Shared</b></a>
+            </li>
+            <li class="lib"><a class="ab" href="Login.html">
+                    <img  align="middle" src="rsc/Config.png"
+                width="15%" height="auto"
+                alt="Avatar" class="avatar"/><b>Salir</b></a></li>
+        </ul>
+        
+        <div class="ulb" style="display: flex; height: 450px">
+            <div class="ulb" style="width:30%">
+                <ul id="myUL">
+                    <li>
+                    <img  align="middle" src="rsc/img_avatar2.png"
+                    width="5%" height="auto"
+                    alt="Avatar" class="avatar"/>
+                    <a class="folderh" href="ServletIndex?path=root"><b>root</b>
+                    </a>
+                    <ul class="nested active">
+                        <li>
+                        <img  align="middle" src="rsc/img_avatar2.png"
+                        width="5%" height="auto"
+                        alt="Avatar" class="avatar"/>
+                        <a class="folderh" href="ServletIndex?path=root/montaña"><b>montaña</b>
+                        </a>
+                        </li>
+                        <li>
+                        <img  align="middle" src="rsc/img_avatar2.png"
+                        width="5%" height="auto"
+                        alt="Avatar" class="avatar"/>
+                        <a class="folderh" href="ServletIndex?path=root/rio"><b>rio</b>
+                        </a>
+                        </li>
+                    </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div align="middle" style="width:40%; float: right">
+                <input name="path" value="root" type="hidden">
+                <input type="text" value="root" placeholder="ejemplo/para/ruta" name="path2">
+                <div style="padding: 14px 20px;
+                    background-color: #f44336;">
+                    <input type="radio"
+                    name="fileo" value="Borrar">Borrar</input>
+                    <input type="radio"
+                    name="fileo" value="Crear">Crear</input>
+                    <input type="radio"
+                    name="fileo" value="Subir">Subir</input>
+                    <button type="submit" style="float: right; width: 30%"
+                        name="final" class="signupbtn">Enviar</button>
+                </div>
+                <div style="height: 300px; overflow-y: scroll">
+                    <ul class="ulf">
+                        <li><a class="af" href="ServletIndex?path=file">
+                            <img  align="middle" src="rsc/Files.png"
+                            width="15%" height="auto"
+                            alt="Avatar" class="avatar"/><b>Prueba.txt</b></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="ulb" style="width:30%; float: right">
+                <div style="padding: 14px 20px;
+                    background-color: #f44336;">
+                    <div>
+                        <input type="radio"
+                        name="fileo" value="Quitar">Quitar</input>
+                        <input type="radio"
+                        name="fileo" value="Copiar">Copiar</input>
+                        <input type="radio"
+                        name="fileo" value="Mover">Mover</input>
+                        <button type="submit" style="float: right; width: 30%"
+                            name="final" class="signupbtn">Enviar</button>
+                    </div>
+                </div>
+                <div style="height: 300px; overflow-y: scroll">
+                    <h3>Nombre:</h3>
+                    <p style="text-align: justify;">Info:</p>
+                    <h5>Fecha:</h5>
+                </div>
+            </div>
+            
+        </div>
+            
+        </form>
+         
+    </body>
+</html>

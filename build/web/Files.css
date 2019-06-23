@@ -1,0 +1,19 @@
+.ulf {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 40%;
+}
+
+.af {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+.af:hover {
+  color: rgb(14,75, 170);
+}
+

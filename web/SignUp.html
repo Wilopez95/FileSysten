@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="shortcut icon" href="rsc/favicon.ico"/>
+        <title>File System Drive</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <form class="modal-content" method="POST" action="ServletSingUp">
+              <div class="container">
+                <h1>Registro</h1>
+                <p>Por favor llene el siguiente formulario par completar su registro.</p>
+                <hr>
+                <label for="email"><b>Correo</b></label>
+                <input type="text" placeholder="Correo" name="email" required>
+
+                <label for="psw"><b>Contraseña</b></label>
+                <input type="password" placeholder="Contraseña" name="psw" required>
+
+                <label for="psw-repeat"><b>Repita la contraseña</b></label>
+                <input type="password" placeholder="Repita la contraseña" name="psw-repeat" required>
+
+
+                <p>Al crear una cuenta accedes a nuestros <a href="#" style="color:dodgerblue">terminos y condiciones</a>.</p>
+
+                <div class="clearfix">
+                   
+                    <a href="Login.html">  <button type="button" name="cancelbtn" onclick="" class="cancelbtn">Cancelar</button> </a>
+                    <button type="submit"  name="singnup" class="signupbtn">Registrarse</button>
+                </div>
+              </div>
+            </form>
+    </body>
+</html>

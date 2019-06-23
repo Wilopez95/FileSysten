@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Usuarios>
+	<Usuario id="1">
+		<Correo>Wilopez95@gmail.com</Correo>
+		<Contraseña>Wilopez</Contraseña>
+		<Espacio>15</Espacio>
+		<root>
+			<name>root</name>
+			<Fotos>
+				<name>Fotos</name>
+				<fotos.txt>
+					<name>fotos.txt</name>
+					<date>31/03/2018</date>
+					<data>Aqui estan las fotos del viaje a manuel antonio</data>
+				</fotos.txt>
+			</Fotos>
+			<Curriculum.txt>
+				<name>Curriculum.txt</name>
+				<date>15/06/2016</date>
+				<data>Curriculon de juan valdez hernadeez</data>
+			</Curriculum.txt>
+		</root>
+		<shared>
+			<name>shared</name>
+				<nose.txt>
+					<name>nose.txt</name>
+					<date>16/06/2019</date>
+					<data>somethin</data>
+				</nose.txt>
+		<nuevo.txt><name>nuevo.txt</name><date>18/06/2019</date><data> prueba</data></nuevo.txt></shared>
+	</Usuario>
+	<Usuario id="2">
+		<Correo>Armando95@gmail.com</Correo>
+		<Contraseña>Armando</Contraseña>
+		<Espacio>15</Espacio>
+		<root>
+			<name>root</name>
+			<montaña>
+				<name>montaña</name>
+				<nose_nada.txt>
+					<name>nose_nada.txt</name>
+					<date>12/06/2019</date>
+					<data>somethin</data>
+				</nose_nada.txt>
+				
+			</montaña>
+			<rio>
+				<name>rio</name>
+			<nose.txt><name>nose.txt</name><date>16/06/2019</date><data>somethin</data></nose.txt></rio>
+		</root>
+		<shared>
+			<name>shared</name>
+		</shared>
+	</Usuario>
+<Usuario id="3"><Correo>k@gmail.com</Correo><Contraseña>k</Contraseña><Espacio>15</Espacio><root><name>root</name><h><name>h</name><j><name>j</name><k><name>k</name></k></j></h><nueva><name>nueva</name></nueva><archivo.txt><name>archivo.txt</name><date>18/06/2019</date><data> nuevo archivo</data></archivo.txt><archivo2.txt><name>archivo2.txt</name><date>18/06/2019</date><data> si</data></archivo2.txt></root><shared><name>shared</name></shared></Usuario></Usuarios>
